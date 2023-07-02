@@ -1,0 +1,42 @@
+2023-07-02 17:27:15,920 - Address(host='127.0.0.1', port=54818) -  method: PUT - path: /user/a84eebc4-3e3b-4a42-a581-0c99ba9faeeb- status_code: 200 - process_time: 0.0030050277709960938
+2023-07-02 17:28:43,728 - Address(host='127.0.0.1', port=54837) -  method: POST - path: /user/add- status_code: 201 - process_time: 0.019750356674194336
+2023-07-02 17:36:16,951 - Address(host='127.0.0.1', port=55006) -  method: DELETE - path: /user/42342- status_code: 200 - process_time: 0.003019094467163086
+2023-07-02 17:39:18,238 - Address(host='127.0.0.1', port=55082) -  method: DELETE - path: /user/42342- status_code: 204 - process_time: 0.003081798553466797
+2023-07-02 17:41:45,803 - Using selector: SelectSelector
+2023-07-02 17:41:50,229 - Address(host='127.0.0.1', port=55169) -  method: DELETE - path: /user/42342- status_code: 204 - process_time: 0.0038061141967773438
+2023-07-02 17:42:19,181 - Using selector: SelectSelector
+2023-07-02 17:42:19,859 - Address(host='127.0.0.1', port=55183) -  method: GET - path: /docs- status_code: 200 - process_time: 0.0005030632019042969
+2023-07-02 17:42:20,064 - Address(host='127.0.0.1', port=55183) -  method: GET - path: /openapi.json- status_code: 200 - process_time: 0.027962207794189453
+2023-07-02 17:46:59,726 - Using selector: SelectSelector
+2023-07-02 17:47:04,686 - 500 Internal Server Error: module 'starlette.status' has no attribute 'HTTP_204_NO_USER'
+2023-07-02 17:56:29,246 - Address(host='127.0.0.1', port=55370) -  method: GET - path: /docs- status_code: 200 - process_time: 0.0
+2023-07-02 17:56:29,449 - Address(host='127.0.0.1', port=55370) -  method: GET - path: /openapi.json- status_code: 200 - process_time: 0.02595210075378418
+2023-07-02 17:56:34,761 - Address(host='127.0.0.1', port=55371) -  method: POST - path: /collection/user- status_code: 201 - process_time: 0.19572877883911133
+2023-07-02 17:58:30,372 - Address(host='127.0.0.1', port=55419) -  method: POST - path: /collection/user- status_code: 201 - process_time: 0.18309307098388672
+2023-07-02 17:59:35,433 - Address(host='127.0.0.1', port=55447) -  method: POST - path: /collection/user- status_code: 201 - process_time: 0.08484935760498047
+2023-07-02 18:00:50,526 - Address(host='127.0.0.1', port=55469) -  method: POST - path: /collection/user- status_code: 201 - process_time: 0.19822955131530762
+2023-07-02 18:11:54,182 - 500 Internal Server Error: cannot encode object: UpdateUserSchema(device={'additionalProp1': 0, 'additionalProp2': 0, 'additionalProp3': 0}, geo={'additionalProp1': 0, 'additionalProp2': 0, 'additionalProp3': 0}, user_install_timestamp=0, user_first_touch_timestamp=0, user_properties={'additionalProp1': 0, 'additionalProp2': 0, 'additionalProp3': 0}), of type: <class 'models.user.UpdateUserSchema'>
+2023-07-02 18:13:35,712 - 500 Internal Server Error: 1 validation error for UpdateUserSchema
+response
+  value is not a valid dict (type=type_error.dict)
+2023-07-02 18:14:09,503 - 500 Internal Server Error: 1 validation error for UpdateUserSchema
+response
+  value is not a valid dict (type=type_error.dict)
+2023-07-02 18:15:53,377 - 500 Internal Server Error: object of type 'UpdateUserSchema' has no len()
+2023-07-02 18:16:00,813 - Address(host='127.0.0.1', port=55736) -  method: PUT - path: /user/string- status_code: 200 - process_time: 0.0056188106536865234
+2023-07-02 18:17:06,297 - Address(host='127.0.0.1', port=55807) -  method: PUT - path: /user/string- status_code: 200 - process_time: 0.0071904659271240234
+2023-07-02 18:18:03,928 - Address(host='127.0.0.1', port=55826) -  method: PUT - path: /user/string- status_code: 200 - process_time: 0.007241249084472656
+2023-07-02 18:19:31,115 - Address(host='127.0.0.1', port=55856) -  method: PUT - path: /user/string- status_code: 200 - process_time: 0.006544828414916992
+2023-07-02 18:20:15,519 - 500 Internal Server Error: 1 validation error for UpdateUserSchema
+response
+  value is not a valid dict (type=type_error.dict)
+2023-07-02 18:23:01,400 - 500 Internal Server Error: 1 validation error for UpdateUserSchema
+response
+  value is not a valid dict (type=type_error.dict)
+2023-07-02 18:26:33,255 - 500 Internal Server Error: 1 validation error for UpdateUserSchema
+response
+  value is not a valid dict (type=type_error.dict)
+2023-07-02 18:30:01,231 - Address(host='127.0.0.1', port=56014) -  method: PUT - path: /user/123123- status_code: 404 - process_time: 0.0030438899993896484
+2023-07-02 18:30:21,304 - Address(host='127.0.0.1', port=56018) -  method: PUT - path: /user/String- status_code: 404 - process_time: 0.003067493438720703
+2023-07-02 18:30:29,539 - Address(host='127.0.0.1', port=56020) -  method: PUT - path: /user/string- status_code: 200 - process_time: 0.003090381622314453
+2023-07-02 18:31:42,162 - Address(host='127.0.0.1', port=56041) -  method: PUT - path: /user/string- status_code: 200 - process_time: 0.005653858184814453
